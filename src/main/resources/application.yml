@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: david
+    password: antonio11.
+    url: jdbc:mysql://demo11.mysql.database.azure.com:3306/demo1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
